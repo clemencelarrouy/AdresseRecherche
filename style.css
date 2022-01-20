@@ -1,0 +1,48 @@
+h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: monospace;
+  color: #787474;
+  width: 100%;
+  text-align: center;
+}
+
+.divSearch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 30vh;
+  justify-content: space-around;
+  background: #f9fefc;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  width: 70%;
+  box-shadow: 1px 0px 20px 2px rgb(0 0 0 / 10%);
+  padding: 20px;
+}
+
+body {
+  background: #f2faf8;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.divInput {
+  width: 63%;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+}
+button {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: monospace;
+  color: #fff;
+  background: #7ba49e;
+  padding: 7px;
+  border-radius: 10px;
+  width: 35%;
+  border-width: 0;
+}
